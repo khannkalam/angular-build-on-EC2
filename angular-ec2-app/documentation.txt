@@ -1,0 +1,14 @@
+phase 4 assessement
+
+angular applicaton running on docker conatiner on EC2 instance
+
+1. i made very simple angular application using ng new "projectname command
+2.then i build that application using ng build command
+3.then i push that application to github 
+4.after that i made a EC2 instance on AWS
+5.after that i connected that isntance to my machine
+6.after that i installed git on virtual mahcine by using "sudo yum install git" 
+7.after installing i pulled that docker image of my application from github by using git cloone "repo address"
+8.then i installed docker on my virtual machine  by uisng "sudo install docker"
+9.then i build docker container on my virtual machine by using "sudo docker build -t "image name" . -f Dockerfile
+10.after that i run that iamge on my virtual machine by using "sudo run -d -p "port number" "image name"
